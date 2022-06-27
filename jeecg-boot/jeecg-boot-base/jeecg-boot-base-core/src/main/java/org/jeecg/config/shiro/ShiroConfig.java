@@ -136,6 +136,8 @@ public class ShiroConfig {
 
         //性能监控  TODO 存在安全漏洞泄露TOEKN（durid连接池也有）
         filterChainDefinitionMap.put("/actuator/**", "anon");
+        //TODO 添加配置后台接口访问不需要token
+        filterChainDefinitionMap.put("/test/hello", "anon");
 
         // 添加自己的过滤器并且取名为jwt
         Map<String, Filter> filterMap = new HashMap<String, Filter>(1);

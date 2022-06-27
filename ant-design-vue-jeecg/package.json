@@ -14,7 +14,7 @@
     "@jeecg/antd-online-mini": "3.0.0-RC",
     "@tinymce/tinymce-vue": "2.1.0",
     "@toast-ui/editor": "^2.1.2",
-    "ant-design-vue": "^1.7.2",
+    "ant-design-vue": "^1.7.8",
     "axios": "^0.18.0",
     "china-area-data": "^5.0.1",
     "clipboard": "^2.0.4",
